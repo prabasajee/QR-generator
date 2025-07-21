@@ -1,0 +1,74 @@
+{
+  "name": "qr-code-generator",
+  "version": "2.0.0",
+  "description": "A modern, feature-rich QR code generator with customizable colors, sizes, formats, and error correction levels. Built with vanilla HTML, CSS & JavaScript.",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "npx http-server . -p 8000 -o",
+    "deploy": "echo 'Deploy to GitHub Pages by pushing to main branch'",
+    "lint": "echo 'Linting HTML, CSS, and JavaScript files'",
+    "validate": "echo 'Validating HTML and checking accessibility'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabasajee/QR-generator.git"
+  },
+  "keywords": [
+    "qr-code",
+    "qr-generator",
+    "javascript",
+    "html5",
+    "css3",
+    "web-app",
+    "pwa",
+    "responsive-design",
+    "vanilla-js",
+    "github-pages",
+    "barcode",
+    "mobile-friendly",
+    "accessibility",
+    "modern-ui",
+    "color-customization",
+    "multiple-formats",
+    "error-correction"
+  ],
+  "author": {
+    "name": "prabasajee",
+    "url": "https://github.com/prabasajee"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prabasajee/QR-generator/issues"
+  },
+  "homepage": "https://prabasajee.github.io/QR-generator",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "features": {
+    "qr_generation": "Generate QR codes from text, URLs, emails, phone numbers",
+    "customization": "Custom colors, sizes, error correction levels, formats",
+    "responsive_design": "Mobile-first responsive design",
+    "accessibility": "WCAG compliant with ARIA labels and keyboard navigation",
+    "modern_ui": "Glass morphism design with smooth animations",
+    "real_time": "Auto-generation with debounced input",
+    "sharing": "Native Web Share API support",
+    "validation": "Real-time input validation and error handling"
+  },
+  "techStack": {
+    "frontend": ["HTML5", "CSS3", "Vanilla JavaScript"],
+    "fonts": ["Google Fonts (Inter)"],
+    "api": ["QR Server API"],
+    "deployment": ["GitHub Pages"],
+    "tools": ["VS Code", "Git"]
+  }
+}
