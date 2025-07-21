@@ -1,9 +1,10 @@
 {
-  "name": "qr-code-generator",
-  "version": "2.0.0",
+  "name": "@prabasajee/qr-generator",
+  "version": "1.0.0",
   "description": "A modern, feature-rich QR code generator with customizable colors, sizes, formats, and error correction levels. Built with vanilla HTML, CSS & JavaScript.",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
+    "test": "exit 0",
     "start": "python -m http.server 8000",
     "dev": "python -m http.server 8000",
     "serve": "npx http-server . -p 8000 -o",
@@ -13,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/prabasajee/QR-generator.git"
+    "url": "git+https://github.com/prabasajee/QR-generator.git"
   },
   "keywords": [
     "qr-code",
@@ -34,10 +35,7 @@
     "multiple-formats",
     "error-correction"
   ],
-  "author": {
-    "name": "prabasajee",
-    "url": "https://github.com/prabasajee"
-  },
+  "author": "prabasajee (https://github.com/prabasajee)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/prabasajee/QR-generator/issues"
@@ -53,7 +51,6 @@
     "not ie <= 11"
   ],
   "devDependencies": {},
-  "dependencies": {},
   "features": {
     "qr_generation": "Generate QR codes from text, URLs, emails, phone numbers",
     "customization": "Custom colors, sizes, error correction levels, formats",
@@ -65,10 +62,23 @@
     "validation": "Real-time input validation and error handling"
   },
   "techStack": {
-    "frontend": ["HTML5", "CSS3", "Vanilla JavaScript"],
-    "fonts": ["Google Fonts (Inter)"],
-    "api": ["QR Server API"],
-    "deployment": ["GitHub Pages"],
-    "tools": ["VS Code", "Git"]
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "Vanilla JavaScript"
+    ],
+    "fonts": [
+      "Google Fonts (Inter)"
+    ],
+    "api": [
+      "QR Server API"
+    ],
+    "deployment": [
+      "GitHub Pages"
+    ],
+    "tools": [
+      "VS Code",
+      "Git"
+    ]
   }
 }
