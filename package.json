@@ -5,12 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "exit 0",
-    "start": "python -m http.server 8000",
-    "dev": "python -m http.server 8000",
-    "serve": "npx http-server . -p 8000 -o",
-    "deploy": "echo 'Deploy to GitHub Pages by pushing to main branch'",
-    "lint": "echo 'Linting HTML, CSS, and JavaScript files'",
-    "validate": "echo 'Validating HTML and checking accessibility'"
+    "start": "node index.js",
+    "publish:github": "npm publish --registry https://npm.pkg.github.com/",
+    "publish:npm": "npm publish --access public --registry https://registry.npmjs.org/",
+    "serve": "npx http-server . -p 8000 -o"
   },
   "repository": {
     "type": "git",
@@ -41,6 +39,17 @@
     "url": "https://github.com/prabasajee/QR-generator/issues"
   },
   "homepage": "https://prabasajee.github.io/QR-generator",
+  "publishConfig": {
+    "@prabasajee:registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "style_Qr.css",
+    "README.md",
+    "LICENSE",
+    "NPM_README.md"
+  ],
   "engines": {
     "node": ">=14.0.0"
   },
